@@ -19,6 +19,20 @@ Read the skill, its referenced resources, scripts, and recent task history. Sepa
 
 Carry the behavior forward, make necessary configuration explicit, and use a small synthetic example. Include personal examples only within the user's authorized sharing scope. A finished artifact approved for sharing does not authorize publishing all of its source notes.
 
+## Preserve learned behavior
+
+Before removing or rewriting an awkward instruction, identify the failure it
+prevented using its rationale, callers, tests, or authorized task history. Carry
+that behavior into a clearer rule or a small regression case. If the reason is
+unknown, investigate before deleting it solely for style. Retire obsolete
+constraints when evidence supports doing so; do not preserve accidental complexity.
+
+For substantive behavior changes, compare a realistic failure case and a nearby
+case that should remain unchanged against the prior and candidate skill. Keep
+inputs and model settings comparable, inspect actual outputs, and record limits
+when an independent comparison is unavailable. Use synthetic public fixtures;
+private source examples and their provenance stay in the private release record.
+
 ## Package and exercise
 
 Build in a fresh directory. Keep `SKILL.md` focused on decisions and route setup or schemas into supporting files only where useful. Include installation instructions, a license for original work, and notices for third-party assets. Inspiration is not a license to copy code, prompts, fonts, or media.
